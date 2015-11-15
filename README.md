@@ -1,5 +1,7 @@
-# boundary-plugin-framework-lua
-A starting point to make a library that can easy the development of Boundary Plugin using LUA/Luvit
+TrueSight Pulse Meter Plugin SDK For Lua
+========================================
+
+A meter plugin framework for creating meter plugins using Lua embedded in the TrueSight Pulse Meter.
 
 ### Example 1 - Generating random metric values
 
@@ -20,7 +22,7 @@ local Plugin = framework.Plugin
 local RandomDataSource = framework.RandomDataSource
 
 local params = framework.params
-params.name = 'Boundary Demo Plugin'
+params.name = 'TrueSight Pulse Demo Plugin'
 params.version = '1.0'
 params.minValue = params.minValue or 1
 params.maxValue = params.maxValue or 100
